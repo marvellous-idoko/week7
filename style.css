@@ -1,0 +1,74 @@
+:root {
+  --hash:rgb(100, 136, 128);
+  --gen: rgb(136, 136, 136);
+  
+  }
+  * {
+    font-weight: 100;
+    /* font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex {
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
+li.links>a{
+    font: inherit;
+}
+a>h3:hover{
+    color:#ccc;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul>li {
+    list-style: none;
+    padding: 0;
+}
+
+img.imgs{
+    
+    height: 12em;
+    border-radius: 5px;
+
+}
+.hashColor{
+    color: var(--hash);
+}
+h1 {
+    color: var(--hash);
+}
+
+.pad {
+    padding: 2% 15%;
+}
+
+li.links {
+    margin: 2px 1em;
+    font-size: small;
+    cursor: pointer;
+}
+#ctrBtn:hover{
+background-color: white;
+color: var(--hash);
+
+}
+body {
+    background-color: rgb(41, 63, 80);
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+button.bigBtn {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: medium;
+    cursor: pointer;
+    padding: 1em 1.5em;
+    color: white;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        article,label {
+            color: var(--gen)
+        }
+        input,textarea{
+            border-radius: 5px;
+            padding:7px 10px;
+            margin-bottom: 10px;
+            font-size: 1.03em;
+        }
+        form>button:hover{
+            background: rgb(119, 161, 152)!important;
+        }
+        form>button{
+            background: rgb(100, 136, 128);color: white;
+            padding: 10px 15px;
+            border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="flex pad" style="padding-top: 0; height: 10em; place-content: space-between;">
+        <div style="height: 100%;
+    border-top: rgb(100, 136, 128) 8px solid;" class="flex">
+            <h1 style="color: white;font-size: xxx-large;">Styles <br> Conference</h1>
+        </div>
+        <div style="height: 100%;flex-direction: column;" class="flex">
+            <h3>August 24th - 26th - Chicago</h3>
+            <nav>
+                <ul class="flex" style="padding: 0;">
+
+                    <li class="links" style="margin-right: 0;"><a href="./index.html">Home</a></li>
+                    <li class="links"><a href="./speakers.html">Speakers</a></li>
+                    <li class="links"><a href="./schedule.html">Schedule</a></li>
+                    <li class="links"><a href="./venue.html">Venue</a></li>
+                    <li class="links"><a href="./register.html">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <SECTIOn class="pad" style="    background: linear-gradient(to right, rgb(161, 211, 176), rgb(246, 241, 211));">
+        <div style="text-align: center;">
+            <h1>Register</h1>
+            <article>
+                Every year we aim to have an unbelievable time, and this year we'd love it for you to join us.
+                Conference passes only cost $99, one of the best values you'll find.</article>
+        </div>
+    </SECTIOn>
+    <SECTIOn>
+        <div class="pad flex" style="background-color: white;place-items: baseline;">
+            <div style="flex:2;margin-right: 2em;">
+                <h1>Purchase a Conference Pass</h1>
+                <span style="color:var(--hash);">$99 PER PASS
+                </span>
+                <br>
+                <br>
+                <article>Purchase your Styles Conference pass using the form to the right. Multiple passes may be
+                    purchased within the same order, so feel free to bring a friend or two along. Once your order is
+                    finished we’ll follow up and provide a receipt for your purchase. See you soon!
+
+                </article>
+                <h4 style="color:var(--gen);">Why Attend?
+                </h4>
+                <ul>
+                    <li style="color: var(--gen);
+                    list-style: disc !important;">Over twenty world-class speakers
+                    </li>
+                    <li style="color: var(--gen);
+                    list-style: disc !important;">One full day of workshops and two full days of presentations
+                    </li>
+                    <li style="color: var(--gen);
+                    list-style: disc !important;">Hosted at The Chicago Theatre, a historical landmark
+                    </li>
+                    <li style="color: var(--gen);
+                    list-style: disc !important;">August in Chicago is simply amazing
+                    </li>
+                </ul>
+            </div>
+            <div style="flex:1;">
+                <form action=""><label for="name">Name</label><br>
+                    <input type="text" placeholder="Full Name" name="name" id="name"><br>
+                    <label for="email">Email</label><br>
+                    <input type="text"name="email" placeholder="Email" id="email "><br>
+                        <label for="NoP">Number of Passes</label><br>
+                        <input style="width:fit-content;" placeholder="1" type="number" name="NoP" id="NoP"><br>
+                        <label for="comments">comments</label><br>
+                        <textarea name="comment" id="comments" cols="30" rows="10"></textarea>
+                            <button type="submit"><span>PURCHASE</span></button>
+                    </form>
+            </div>
+        </div>
+    </SECTIOn>
+    <footer class="pad flex" style="place-content: space-between;">
+        <span>© Styles Conference
+        </span>
+        <ul class="flex">
+            <li class="links"><a href="./index.html">Home</a></li>
+            <li class="links"><a href="./register.html">Speakers</a></li>
+            <li class="links"><a href="./schedule.html">Schedule</a></li>
+            <li class="links"><a href="./schedule.html">Venue</a></li>
+            <li class="links"><a href="./register.html">Register</a></li>
+        </ul>
+
+    </footer>
+</body>
+
+</html>
